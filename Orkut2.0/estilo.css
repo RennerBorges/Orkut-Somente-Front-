@@ -1,0 +1,149 @@
+.ladoDireito{
+	height: 600px;
+}
+.meio{
+	height: 600px;
+}
+.ladoEsquerdo{
+	height: 600px;
+}
+.logo{
+	width: 120px;
+}
+.espacoFoto{
+	width: 100%;
+	height: 35%;
+	background-color: pink;
+}
+.fotoCapa{
+	margin-top: 4%;
+	width: 100%;
+	height: 80%;
+}
+.nomeUsuario{
+	width: 100%;
+	height: 20%;
+	background-color: black;
+}
+
+.nomeUsuario span{
+	color: white;
+	position: relative;
+	top: 5px;
+	font-size: 20px;
+	padding-left: 51%;
+	font-family: 'Roboto', sans-serif;
+}
+.fotoPerfil{
+	width: 35%;
+	height: 65%;
+	position: relative;
+	top: -80px;
+	left: 5px;
+}
+.foto{
+	width: 100%;
+	height: 100%;
+}
+.foto1{
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+}
+.foto2{
+	width: 70%;
+	position: relative;
+	left: 15px;
+	border-radius: 4px;
+}
+.no{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.margens{
+	padding: 0px;
+	margin:0px;
+}
+.table{
+	width: 100%;
+	border-radius: 0px;
+}
+.avaliacao{
+	width: 100%;
+	height: 60px;
+}
+.avaliacao i{
+	color: black;
+}
+.avaliacao1{
+	margin-top: 5%;
+	padding-left: 40%;
+}
+.avaliacao2{
+	margin-top: 5%;
+	padding-left: 20%;
+	color: #ad1457;
+}
+.avaliacao3{
+	margin-top: 5%;
+	padding-left: 20%;
+	color: #ad1457;
+}
+.fotos{
+	width: 100%;
+	height: 80%;
+	margin-top: 4%;
+}
+.tituloFotos{
+	color: white;
+	width: 100%;
+	height: 10%;
+	font-size: 25px;
+	padding-left: 4%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.espacoFotos{
+	width: 40%;
+	height: 30%;
+	float: left;
+	margin-top: 13%;
+	margin-left: 3%;
+
+	padding: 10px;  
+    padding-bottom: 40px;  
+    background-color: #F5F5F5;  
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.6);  
+    background-image: -webkit-linear-gradient(top, #EEEEEE 85%, #eee);  
+    background-image: -moz-linear-gradient(top, #EEEEEE 85%, #eee);  
+    background-image: linear-gradient(top, #EEEEEE 85%, #eee);  
+/*   -webkit-transform: rotate(-3deg);  
+    -moz-transform: rotate(-3deg);  
+    transform: rotate(-3deg);*/
+}
+.um{
+	margin-left: 8.5%;
+}
+.icone{
+	color: white;
+}
+.tituloFotos span{
+	font-size: 30px;
+	margin-right: 10%;
+	position: relative;
+	top: -5px;
+}
+.postagens{
+	width: 100%;
+	height: 100%;
+}
+
+ .row .input-field textarea:focus {
+   border-bottom: 1px solid #ad1457 !important;
+   box-shadow: 0 1px 0 0 #ad1457 !important
+ }
+
+ .row .input-field input:focus {
+   border-bottom: 1px solid #ad1457 !important;
+   box-shadow: 0 1px 0 0 #ad1457 !important
+ }

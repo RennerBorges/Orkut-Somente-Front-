@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <title>Orkut</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="shortcut icon" href="./fotos/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <div id="topo" class="container-fluid">
+   <nav class="row">
+    <div class="nav-wrapper pink darken-3 col s12">
+      <a href="#" class="brand-logo"><img class="logo" src="./fotos/logo.png"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="modal-trigger" href="#modal4"><i class="material-icons">search</i></a></li>
+        <li><a href="./jogo.html"><i class="material-icons">videogame_asset</i></a></li>
+        <li><a class="modal-trigger" href="#modal3"><i class="material-icons">insert_comment</i></a></li>
+        <li><a href="#!" class="dropdown-trigger" data-target='dropdown1'><i class="material-icons">settings</i></a></li>
+
+
+        <ul id='dropdown1' class='dropdown-content'>
+          <li onclick="tema()"><a href="#!" style="color: black;">Conta</a></li>
+          <li class="divider" tabindex="-1"></li>
+          <li><a href="#!" style="color: black;">Privacidade</a></li>
+          <li class="divider" tabindex="-1"></li>
+          <li><a href="#!" style="color: black;">Sair</a></li>
+        </ul>
+
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="row">
+  <div class="col s3 ladoDireito pink darken-3">
+    <div class="espacoFoto">
+      <div class="fotoCapa">
+        <img class="foto" src="./fotos/capa.jpg">
+        <div class="fotoPerfil">
+          <img class="circle foto" src="./fotos/perfil.jpg">
+        </div>
+      </div>
+      <div class="nomeUsuario">
+        <span><b>Renner Borges</b></span>
+      </div>
+    </div>
+    <!-- Collapsible -->
+    <ul class="collapsible no">
+      <li>
+        <div class="collapsible-header"><i class="material-icons">thumbs_up_down</i>Avaliação</div>
+        <div class="collapsible-body margens">
+          <div class="white avaliacao">
+            <a onclick="M.toast({html: 'Eu gostei!'})"><i class="material-icons avaliacao1">thumb_up</i></a>
+            <a onclick="M.toast({html: 'Eu não gostei!'})"><i class="material-icons">thumb_down</i></a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">more</i>Depoimentos</div>
+        <div class="collapsible-body margens">
+
+          <ul class="collection">
+            <li class="collection-item avatar">
+              <img src="fotos/foto5.jpg" alt="" class="circle">
+              <span class="title"><b>Livia Cristina</b></span>
+              <p>Gostei!<br>
+               Quanto tempo saudades!
+             </p>
+             <a href="#!" class="secondary-content"><i class="material-icons" style="color: #ad1457">grade</i></a>
+           </li>
+           <li class="divider" tabindex="-1"></li>
+         </ul>
+
+         <ul class="collection">
+          <li class="collection-item avatar">
+            <img src="fotos/foto6.jpg" alt="" class="circle">
+            <span class="title"><b>Stephany Fanttiny</b></span>
+            <p>Gostei! <br>
+             Achei bem interessante seu perfil!
+           </p>
+           <a href="#!" class="secondary-content"><i class="material-icons" style="color: #ad1457">grade</i></a>
+         </li>
+       </ul>
+
+
+     </div>
+   </li>
+   <li>
+    <div class="collapsible-header"><i class="material-icons">grade</i>Comunidades</div>
+    <div class="collapsible-body margens">
+      <table>
+        <tr>
+          <td class="white table">Morrinhenses</td>
+        </tr>
+        <tr>
+          <td class="white table">IF OBSCURO</td>
+        </tr>
+        <tr>
+          <td class="white table">WEB Desenvolvedores</td>
+        </tr>
+      </table>
+    </div>
+  </li>
+</ul>
+</div>
+<div class="meio white col s6">
+  <div class="postagens">
+
+    <ul style="margin-top: 0px;" class="collection z-depth-3">
+      <li class="collection-item avatar">
+        <img src="fotos/perfil.jpg" alt="" class="circle">
+        <span class="title"><b>Renner Borges</b></span>
+        <p>"A dúvida é o preço da pureza"<br>
+        </p>
+        <i class="material-icons avaliacao2">thumb_up</i>
+        <a class="modal-trigger" href="#modal2"><i class="material-icons avaliacao3">comment</i></a>
+        <a class="modal-trigger" href="#modal1"><i class="material-icons avaliacao3">redo</i></a>
+      </li>
+    </ul>
+
+    <ul class="collection z-depth-3">
+      <li class="collection-item avatar">
+        <img src="fotos/perfil.jpg" alt="" class="circle">
+        <span class="title"><b>Renner Borges</b></span>
+        <p>A educação é uma coisa admirável, mas é bom recordar que nada do que vale a pena saber pode ser ensinado.<br>
+        </p>
+        <i class="material-icons avaliacao2">thumb_up</i>
+        <a class="modal-trigger" href="#modal2"><i class="material-icons avaliacao3">comment</i></a>
+        <a class="modal-trigger" href="#modal1"><i class="material-icons avaliacao3">redo</i></a>
+      </li>
+    </ul>
+
+    <ul class="collection z-depth-3">
+      <li class="collection-item avatar">
+        <img src="fotos/perfil.jpg" alt="" class="circle">
+        <span class="title"><b>Renner Borges</b></span>
+        <p>Duvide do brilho das estrelas. Duvide do perfume de uma flor. Duvide de todas as verdades. Mas nunca duvide do meu amor.<br>
+        </p>
+        <i class="material-icons avaliacao2">thumb_up</i>
+        <a class="modal-trigger" href="#modal2"><i class="material-icons avaliacao3">comment</i></a>
+        <a class="modal-trigger" href="#modal1"><i class="material-icons avaliacao3">redo</i></a>
+      </li>
+    </ul>
+
+    <ul class="collection z-depth-3">
+      <li class="collection-item avatar">
+        <img src="fotos/perfil.jpg" alt="" class="circle">
+        <span class="title"><b>Renner Borges</b></span>
+        <p>Na verdade "nada" é uma palavra esperando tradução...<br>
+        </p>
+        <i class="material-icons avaliacao2">thumb_up</i>
+        <a class="modal-trigger" href="#modal2"><i class="material-icons avaliacao3">comment</i></a>
+        <a class="modal-trigger" href="#modal1"><i class="material-icons avaliacao3">redo</i></a>
+      </li>
+    </ul>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Você tem certeza que deseja compartilhar?</h4>
+        <p>Essa publicação pertence ao usúario Renner Borges, ao compartilhar você deixara ela pública ao seu perfil</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Compartilhar</a>
+      </div>
+    </div>
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h4>Escreva seu comentario:</h4>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label style="color: #ad1457;" for="textarea1">Comente:</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Comentar</a>
+      </div>
+    </div>
+
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <h4>Conversas:</h4>
+
+        
+        <div class="row" style="margin-bottom:0px;">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="name" type="text">
+                <label for="name" style="color: #ad1457;">Pesquisar</label>
+                <span class="helper-text" data-error="wrong" data-success="right">Procure por suas conversas!</span>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+        <ul class="collection">
+          <li class="collection-item avatar">
+            <img src="fotos/foto6.jpg" alt="" class="circle">
+            <span class="title"><b>Stephany Fanttiny</b></span>
+            <p>Olá,tudo bem? <br>
+             Ontem, as 12:32hrs
+           </p>
+           <a href="#!" class="secondary-content"><i class="material-icons" style="color: #ad1457">favorite</i></a>
+         </li>
+       </ul>
+
+       <ul class="collection">
+        <li class="collection-item avatar">
+          <img src="fotos/foto7.jpg" alt="" class="circle">
+          <span class="title"><b>Marcel Melo</b></span>
+          <p>Poderia me ajudar no trabalho? <br>
+           01/12/2018, as 02:40hrs
+         </p>
+         <a href="#!" class="secondary-content"><i class="material-icons" style="color: #ad1457">check</i></a>
+       </li>
+     </ul>
+
+     <ul class="collection">
+      <li class="collection-item avatar">
+        <img src="fotos/foto8.jpg" alt="" class="circle">
+        <span class="title"><b>Luiz Alexandre</b></span>
+        <p>Eae Luiz! <br>
+         01/12/2018, as 00:01hrs
+       </p>
+       <a href="#!" class="secondary-content"><i class="material-icons" style="color: #ad1457">check</i></a>
+     </li>
+   </ul>
+
+ </div>
+ <div class="modal-footer">
+  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Pronto</a>
+</div>
+</div>
+
+<div id="modal4" class="modal">
+  <div class="modal-content">
+    <h4>O que você deseja encontrar?</h4>
+    <div class="row">
+       <div class="col s12">
+         <div class="row">
+           <div class="input-field col s12">
+             <i style="color: #ad1457" class="material-icons prefix">search</i>
+             <input type="text" id="autocomplete-input" class="autocomplete">
+             <label for="autocomplete-input">Pesquise</label>
+           </div>
+         </div>
+       </div>
+     </div>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Pesquisar</a>
+  </div>
+</div>
+
+</div>
+</div>
+<div class="ladoDireito pink darken-3 col s3">
+  <div class="fotos">
+    <div class="tituloFotos">
+      <span>Fotos</span><i class="material-icons icone small">photo</i>
+    </div>
+    <div class="espacoFotos um"><img class="materialboxed foto2" width="650" src="fotos/foto3.jpg"></div>
+    <div class="espacoFotos"><img class="materialboxed foto1" width="650" src="fotos/foto2.jpg"></div>
+    <div class="espacoFotos um"><img class="materialboxed foto1" width="650" src="fotos/foto1.jpg"></div>
+    <div class="espacoFotos"><img class="materialboxed foto2" width="650" src="fotos/foto4.jpg"></div>
+  </div>
+</div>
+<!-- RODAPE -->
+<footer class="page-footer pink darken-1">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Orkut</h5>
+        <p class="grey-text text-lighten-4">Rede Social organizada por Renner Borges.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright pink darken-3">
+    <div class="container">
+      © 2018 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#topo">Topo</a>
+    </div>
+  </div>
+</footer>
+</div>
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
